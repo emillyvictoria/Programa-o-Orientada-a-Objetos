@@ -23,6 +23,6 @@ public class Exercicio1 {
         
        double salarioFinal = (valorTotal*0.05) + (carrosVendidos * comissao) + salarioFixo;
        System.out.println("O salario final do funcinario eh R$ "+salarioFinal);        
-          
+           
     }
 }
