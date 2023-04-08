@@ -80,7 +80,7 @@ public class Exercicio2 {
                 System.out.println("Opcao de bebida invalida.");
         }
         System.out.printf("O menu escolhida possui %d calorias.%n", countCalorias);
-               
+                
  }
     
 }
