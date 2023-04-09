@@ -1,4 +1,3 @@
-
 package ListaAula;
 
 import java.util.Scanner;
@@ -71,7 +70,7 @@ public class Exercicio3 {
             System.out.println("Informe a Idade entre 10 e 100 anos (-1 para sair):");
             idade = sc.nextInt();
         }
-        double porcentagem = ((double) caracteristicas / countParticipantes) * 100;
+        double porcentagem = (caracteristicas / countParticipantes) * 100;
         System.out.println("A porcentagem de mulheres com cabelos e olhos castanhos, entre 18 e 35 anos na pesquisa eh de: " + porcentagem + "%");
     }
 }
